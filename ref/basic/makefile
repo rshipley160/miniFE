@@ -27,8 +27,8 @@ LIBS=
 # The MPICH_IGNORE_CXX_SEEK macro is required for some mpich versions,
 # such as the one on my cygwin machine.
 
-CXX=mpicxx
-CC=mpicc
+CXX=
+CC=
 
 include make_targets
 include ./optional/make_targets
